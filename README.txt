@@ -5,10 +5,12 @@ https://spectrum.ieee.org/geek-life/hands-on/build-the-ultimate-digital-picture-
 I started out with an Adafruit breakout board for the Avago APDS9960 Gesture Sensor:
 - Adafruit item number 3595
 
-1. I tried to use a port of the Sparkfun software for their version of
-the breakout but could not get the gesture detection capability to
-work. The port of the Sparkfun software is available via the web site
-above.
+1. I tried to use a port of the Sparkfun software for the Adafruit
+version of the breakout but could not get the gesture detection
+capability to work. The port of the Sparkfun software is available via
+the web site above. The 9960 device is identical and the schematics
+look the same as well. Not sure why I could get the Adafruit code
+to work and not the Sparkfun code.
 
 2. Next, I ported over Adafruit's Arduino code. That seems to work OK.
 
